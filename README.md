@@ -55,9 +55,9 @@ format fs=ntfs quick
 assign
 exit
 
-<img width="4000" height="3000" alt="92433" src="https://github.com/user-attachments/assets/239dbe78-4ced-48d4-b575-d0d5a8524664" />
-
 <img width="4000" height="3000" alt="92431" src="https://github.com/user-attachments/assets/503975bd-ee21-4eed-bc2e-b9401ed06c96" />
+
+<img width="4000" height="3000" alt="92433" src="https://github.com/user-attachments/assets/239dbe78-4ced-48d4-b575-d0d5a8524664" />
 
 <img width="4000" height="3000" alt="92435" src="https://github.com/user-attachments/assets/bf0206b7-76cc-4dfc-a177-82044c601977" />
 
