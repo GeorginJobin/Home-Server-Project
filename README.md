@@ -55,13 +55,12 @@ format fs=ntfs quick
 assign
 exit
 
-<img width="4096" height="3072" alt="92419" src="https://github.com/user-attachments/assets/a5a880bc-8d05-405e-9d51-31d8ba6c329c" />
+<img width="4000" height="3000" alt="92433" src="https://github.com/user-attachments/assets/239dbe78-4ced-48d4-b575-d0d5a8524664" />
 
-<img width="4000" height="3000" alt="92426" src="https://github.com/user-attachments/assets/1d1f15b0-6a41-4b97-934d-c1d22677598e" />
+<img width="4000" height="3000" alt="92431" src="https://github.com/user-attachments/assets/503975bd-ee21-4eed-bc2e-b9401ed06c96" />
 
-<img width="4000" height="3000" alt="92429" src="https://github.com/user-attachments/assets/8e5c4640-6459-48d2-8158-20a01014e5af" />
+<img width="4000" height="3000" alt="92435" src="https://github.com/user-attachments/assets/bf0206b7-76cc-4dfc-a177-82044c601977" />
 
-<img width="4096" height="3072" alt="92420" src="https://github.com/user-attachments/assets/7ada70ed-41d0-43cd-88e4-46bdb71539bc" />
 
 
 - Result:
