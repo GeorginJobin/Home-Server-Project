@@ -52,7 +52,7 @@ The steps I took to install this OS.
 <img width="590" height="784" alt="Screenshot 2026-05-19 165632" src="https://github.com/user-attachments/assets/23fcef5c-d828-497c-9706-cf3b9b302bf3" />
 
 
-<br>
+
 ***Step 2 - Turn off Bitlocker**
 I wanted to turn off bitlocker on this device just in case I needed to get back into the windows user for old files or troubleshooting, as I don't have access to the Bitlocker key on this device.
 
@@ -73,7 +73,7 @@ But surprisely the bitlocker was already off for this device, either way these w
 <img width="4000" height="3000" alt="IMG_20260519_171947" src="https://github.com/user-attachments/assets/9377931a-6fe7-49bb-a4e7-c21ccca1fb60" />
 
 
-<br>
+
 ***Step 3 - Booting from USB**
 I plugged my laptop into power before flashing, And I have finally removed the battery so it is currently only being powered directly with the power cable.
 
@@ -82,7 +82,7 @@ I plugged my laptop into power before flashing, And I have finally removed the b
 <img width="4096" height="3072" alt="IMG_20260519_173733" src="https://github.com/user-attachments/assets/0d7e44bb-4efa-4243-855e-66d0dd2a6e74" />
 
 
-<br>
+
 - Plug in USB and turn on laptop
 - Spam F12 until boot menu comes up
 
@@ -98,7 +98,7 @@ Then it brought me to GRUB, the linux boot manager, and I selected "Try or Insta
 <img width="4096" height="3072" alt="IMG_20260519_173935" src="https://github.com/user-attachments/assets/8848fcf3-7654-461b-a1e4-74cd6ba8e069" />
 
 
-<br>
+
 ***Step 4 - Configure Ubuntu Server**
 Next was the Ubuntu Server Config.
 
@@ -213,6 +213,7 @@ Images:
 <img width="4096" height="3072" alt="IMG_20260519_193525_edit_57553522646011" src="https://github.com/user-attachments/assets/76784905-1670-471a-aa15-c56248de298b" />
 
 
+
 ---
 
 ## Incident Logs
@@ -265,13 +266,15 @@ exit
 
 <img width="4000" height="3000" alt="92435" src="https://github.com/user-attachments/assets/d94139ce-2900-46da-a3ec-7d46793197d4" />
 
+
+
 - What I learned:
 * BIOS-level input working while Windows fails means its software/driver issue
 * Windows recovery mode, allows full adminstrator level access to the command line
 * Always try to isolate which layer a failure is in before trying to fix
 
 
-<br>
+
 ### Incident 2: Ubuntu Server Wifi Setup
 Date: 19-May-2026
 Status: Resolved
