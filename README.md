@@ -53,6 +53,8 @@ The steps I took to install this OS.
 
 
 
+
+
 ***Step 2 - Turn off Bitlocker**
 I wanted to turn off bitlocker on this device just in case I needed to get back into the windows user for old files or troubleshooting, as I don't have access to the Bitlocker key on this device.
 
@@ -73,12 +75,16 @@ But surprisely the bitlocker was already off for this device, either way these w
 <img width="4000" height="3000" alt="IMG_20260519_171947" src="https://github.com/user-attachments/assets/9377931a-6fe7-49bb-a4e7-c21ccca1fb60" />
 
 
+
 ***Step 3 - Booting from USB**
 I plugged my laptop into power before flashing, And I have finally removed the battery so it is currently onyl being powered directly with the power cable.
 
 <img width="4096" height="3072" alt="IMG_20260519_171329" src="https://github.com/user-attachments/assets/1473ac23-54dc-4bfe-8866-ff363c87509b" />
 
 <img width="4096" height="3072" alt="IMG_20260519_173733" src="https://github.com/user-attachments/assets/0d7e44bb-4efa-4243-855e-66d0dd2a6e74" />
+
+
+
 
 
 - Plug in USB and turn on laptop
@@ -94,6 +100,9 @@ Then it brought me to GRUB, the linux boot manager, and I selected "Try or Insta
 <img width="4000" height="3000" alt="IMG_20260519_172944" src="https://github.com/user-attachments/assets/3cb81d8e-cda1-43aa-9bed-ca1f6ca84521" />
 
 <img width="4096" height="3072" alt="IMG_20260519_173935" src="https://github.com/user-attachments/assets/8848fcf3-7654-461b-a1e4-74cd6ba8e069" />
+
+
+
 
 
 ***Step 4 - Configure Ubuntu Server**
