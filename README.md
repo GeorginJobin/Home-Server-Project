@@ -90,7 +90,7 @@ I plugged my laptop into power before flashing, And I have finally removed the b
 - Plug in USB and turn on laptop
 - Spam F12 until boot menu comes up
 
-In my case it opened a legacy boot menu from Dell, which I chose UEFI: Sandisk, which was my drive.
+In my case it opened a legacy boot menu from Dell, which I chose "UEFI: Sandisk", which was my drive.
 
 <img width="4096" height="3072" alt="IMG_20260519_172924" src="https://github.com/user-attachments/assets/40d11ce5-dd10-4e7a-a06a-1400d34a7b96" />
 
