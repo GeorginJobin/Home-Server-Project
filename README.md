@@ -284,18 +284,13 @@ Was setting up wifi after full Ubuntu installation, for some reason wont let me,
 
 - Diagnosis
   - sudo netplan apply [x]
-  - sudo chmod 600 /etc/netplan/0x-xxx.yaml
-  sudo netplan apply [x]
-  - sudo chown root:root /etc/netplan/0x-xxx.yaml then
-  sudo chmod 600 /etc/netplan/0x-xxx.yaml
-  sudo netplan apply [x]
-  - sudo chown -R root:root /etc/netplan/
-  sudo chmod 600 /etc/netplan/*.yaml
-  sudo netplan --debug apply [✓]
+  - sudo chmod 600 /etc/netplan/0x-xxx.yaml --> sudo netplan apply [x]
+  - sudo chown root:root /etc/netplan/0x-xxx.yaml --> sudo chmod 600 /etc/netplan/0x-xxx.yaml --> sudo netplan apply [x]
+  - sudo chown -R root:root /etc/netplan/ --> sudo chmod 600 /etc/netplan/*.yaml --> sudo netplan --debug apply [✓]
 
   One last check to see if it works
     - ip a
-    - Check to see if there is a ip under the wifi interfernce name beside inet, which there is and     we are in.
+    - Check to see if there is a ip under the wifi interfernce name beside inet, which there is and we are in.
 
 - Fix:
 Netplan won't let you apply/save the file with your wifi password and name in it, when it is accessible to everyone, so give only adminstartor/root  permission to see for all the .yaml files and the entire folder. Not too difficult of a fix, but still annoying.
