@@ -11,7 +11,7 @@ A personal project by a CS student at TU Dublin, documenting the full process of
 - Network: Built-in ethernet port & Intel Wireless 7265 (rev 59) Wifi Card
   
 **Goals:**
-- [✓] Ubuntu Server installed and SSH accessible
+- [x] Ubuntu Server installed and SSH accessible
 - [ ] Basic webpage served on local network
 - [ ] NAS configured (Samba)
 - [ ] Jellyfin media server running
@@ -136,7 +136,7 @@ Final things I need to do, due to me using a laptop is the systemd, so I can tur
 -- LidSwitchIgnoreInhibited
 - Save and exit
 
-And Lastly connect to wifi for now;
+Connect to wifi;
 - ls /sys/class/net
 - Save 'w' name
 - ls /etc/netplan
@@ -159,7 +159,16 @@ network:
 - Test by ping -c 3 google.com, and returns "64 bytes from..."
 - And it works
 
-I am officially done setting up Ubuntu Server on my laptop!
+And finally connect via SSH:
+
+- sudo reboot
+- Spam f2 to go into setup
+- Change boot config (got automatically changed at some point)
+- And load into the OS
+- Close lid
+- Open CMD on my page and connect via ip
+
+And I am fully done with the setup of Ubuntu Server and SSH!
 
 Images:
 <img width="4000" height="3000" alt="0" src="https://github.com/user-attachments/assets/94748961-9406-4b4f-afa3-7c593ea7e08f" />
@@ -197,6 +206,8 @@ Images:
 <img width="3072" height="4096" alt="16" src="https://github.com/user-attachments/assets/f6ee100c-2c0e-4a10-982e-a2e71a787f46" />
 
 <img width="3000" height="4000" alt="17" src="https://github.com/user-attachments/assets/e19045ba-2f6d-4ba9-9a98-22a6ee1a2943" />
+
+<img width="4096" height="3072" alt="IMG_20260519_193525_edit_57553522646011" src="https://github.com/user-attachments/assets/76784905-1670-471a-aa15-c56248de298b" />
 
 
 
