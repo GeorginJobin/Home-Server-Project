@@ -1,5 +1,5 @@
 Home-Server-Project
-Just a repo of me documenting my adventure on how to create a low power home server, from an old laptop i had laying around.
+Just a repo of me documenting my adventure on how to create a low power home server, from an old laptop I had laying around.
 
 A personal project by a CS student at TU Dublin, documenting the full process of building a home server from scratch to develop real System Adminstrator skills.
 
@@ -27,7 +27,7 @@ A personal project by a CS student at TU Dublin, documenting the full process of
 ### Entry 1: Project Start
 Date: 5-May-2026
 
-Decided to convert a old personal laptop into a low power home server, to help build practical skills while also setting up useful software which i and my entire family can use, e.g. Jellyfin, NAS, OpenWebUI, and hopefully a server monitor dashboard created through javascript
+Decided to convert a old personal laptop into a low power home server, to help build practical skills while also setting up useful software which me and my entire family can use, e.g. Jellyfin, NAS, OpenWebUI, and hopefully a server monitor dashboard created through javascript.
 
 Next step: Flash Ubuntu Server 24.04 LTS
 
@@ -38,7 +38,7 @@ Date: 19-May-2026
 
 (Had to take a break to do some exams, but back at this project)
 
-I have decided to flash Ubuntu Server 26.04 LTS onto this server, to me this is currently one of the server OS's that will allow me to do everything I have set out to do, from the nas, to minecraft server. Also this OS is variant with long term support hence LTS, and proably the most documented server OS on the internet.
+I have decided to flash Ubuntu Server 26.04 LTS onto this server, to me this is currently one of the server OS's that will allow me to do everything I have set out to do, from an nas, to a minecraft server. Also this OS is variant with long term support hence LTS.
 
 The steps I took to install this OS.
 
@@ -54,16 +54,16 @@ The steps I took to install this OS.
 
 
 ***Step 2 - Turn off Bitlocker**
-I wanted to turn off bitlocker on this device just in case I needed to get back into the windows user for old files or troubleshooting.
+I wanted to turn off bitlocker on this device just in case I needed to get back into the windows user for old files or troubleshooting, as I don't have access to the Bitlocker key on this device.
 
-I had gone through the Windows Recovery Environemnt to do this as again my keyboard and trackpad was not working, and also that Microsoft wont allow for bitlocker changes through Windows 11 unless you have Windows 11 Pro or Enterprise. 
+I had gone through the Windows Recovery Environment to do this as again my keyboard and trackpad was not working, and also that Microsoft wont allow for bitlocker changes through Windows 11 unless you have Windows 11 Pro or Enterprise. 
 
 - Turn off laptop
 - Turn on laptop when boot screen comes on
 - Repeat 3 times, and let boot normally on 4th
 - Windows Recovery Enviroment pops up
 
-But surprisely the bitlocker was already off for this device, either way these would've been the steps to turn them off
+But surprisely the bitlocker was already off for this device, either way these would've been the steps to turn them off;
 - Go to cmd, type manage-bde -status
 - Find your drive letter
 - Type manage-bde off X: (X being your drive letter), and wait
@@ -74,7 +74,7 @@ But surprisely the bitlocker was already off for this device, either way these w
 
 
 ***Step 3 - Booting from USB**
-I plugged my laptop into power before flashing, And I have finally removed the battery so it is currently onyl being powered directly with the power cable
+I plugged my laptop into power before flashing, And I have finally removed the battery so it is currently onyl being powered directly with the power cable.
 
 <img width="4096" height="3072" alt="IMG_20260519_171329" src="https://github.com/user-attachments/assets/1473ac23-54dc-4bfe-8866-ff363c87509b" />
 
@@ -88,7 +88,8 @@ In my case it opened a legacy boot menu from Dell, which I chose UEFI: Sandisk, 
 
 <img width="4096" height="3072" alt="IMG_20260519_172924" src="https://github.com/user-attachments/assets/40d11ce5-dd10-4e7a-a06a-1400d34a7b96" />
 
-Then it brought me to GRUB, the linux boot manager, and I selected "Try or Install Ubuntu Server", which it started the setup for
+
+Then it brought me to GRUB, the linux boot manager, and I selected "Try or Install Ubuntu Server", which it started the setup for.
 
 <img width="4000" height="3000" alt="IMG_20260519_172944" src="https://github.com/user-attachments/assets/3cb81d8e-cda1-43aa-9bed-ca1f6ca84521" />
 
@@ -96,7 +97,7 @@ Then it brought me to GRUB, the linux boot manager, and I selected "Try or Insta
 
 
 ***Step 4 - Configure Ubuntu Server**
-Next was the Ubuntu Server Config
+Next was the Ubuntu Server Config.
 
 - Language: English
 - Keyboard: English (US)
@@ -112,7 +113,7 @@ I used this to be able use my partition I made for this server instead of the wh
 -- Confirmed the destructive action
 
 - Profile Configuration: Just normal naming and passwording things
-- Skipped Ubntu Pro
+- Ubuntu Pro: Skipped
 - SSH configuration: Installed openssh server
 
 And we are finished the install, I just clicked done, finished the full install and removed the usb when prompted
