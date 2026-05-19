@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="Screenshot 2026-05-19 165608" src="https://github.com/user-attachments/assets/2593a206-ca38-496c-b67a-e37ee6a6a7d5" /># Home-Server-Project
+Home-Server-Project
 Just a repo of me documenting my adventure on how to create a low power home server, from an old laptop i had laying around.
 
 A personal project by a CS student at TU Dublin, documenting the full process of building a home server from scratch to develop real System Adminstrator skills.
