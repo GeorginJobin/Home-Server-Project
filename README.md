@@ -77,7 +77,7 @@ But surprisely the bitlocker was already off for this device, either way these w
 
 
 ***Step 3 - Booting from USB**
-I plugged my laptop into power before flashing, And I have finally removed the battery so it is currently onyl being powered directly with the power cable.
+I plugged my laptop into power before flashing, And I have finally removed the battery so it is currently only being powered directly with the power cable.
 
 <img width="4096" height="3072" alt="IMG_20260519_171329" src="https://github.com/user-attachments/assets/1473ac23-54dc-4bfe-8866-ff363c87509b" />
 
