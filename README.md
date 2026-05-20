@@ -1,7 +1,10 @@
-Home-Server-Project
+# Home-Server-Project
+
 Just a repo of me documenting my adventure on how to create a low power home server, from an old laptop I had laying around.
 
 A personal project by a CS student at TU Dublin, documenting the full process of building a home server from scratch to develop real System Adminstrator skills.
+
+---
 
 **Hardware:**
 - CPU: Intel i7-5600U (2 cores / 4 threads @ 2.6GHz)
