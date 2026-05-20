@@ -1,6 +1,8 @@
 # Home Server Project
 
-Just a repo of me documenting my adventure building a low power home server from an old laptop, covering everything from hardware setup and OS configuration, to self-hosted services, real-life troubleshooting and incidents along the way. A personal project by a CS student at TU Dublin to develop real System Administrator skills.
+Just a repo of me documenting my adventure building a low power home server from an old laptop, covering everything from hardware setup and OS configuration, to self-hosted services, real-life troubleshooting and incidents along the way. 
+
+A personal project by a CS student at TU Dublin to develop real System Administrator skills.
 
 ---
 
