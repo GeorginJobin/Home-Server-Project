@@ -1,4 +1,4 @@
-# Home-Server-Project
+# Home Server Project
 
 Just a repo of me documenting my adventure on how to create a low power home server, from an old laptop I had laying around.
 
