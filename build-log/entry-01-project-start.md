@@ -6,4 +6,4 @@ Decided to convert a old personal laptop into a low power home server, to help b
 Next step: Flash Ubuntu Server 24.04 LTS
 
 ---
-[Back to README](../README.md) | [Next Entry →](./entry-02-ubuntu-server-installation.md)
+[Back to README](./README.md) | [Next Entry →](./entry-02-ubuntu-server-installation.md)
