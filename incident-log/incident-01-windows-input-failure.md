@@ -43,4 +43,4 @@ exit
   * Always try to isolate which layer a failure is in before trying to fix
 
 ---
-[Back to README](../README.md) | [Next Incident →](./incident-02-ubuntu-wifi-setup.md)
+[Back to README](./README.md) | [Next Incident →](./incident-02-ubuntu-wifi-setup.md)
