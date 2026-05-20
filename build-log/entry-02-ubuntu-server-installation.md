@@ -177,4 +177,4 @@ Images:
 
 <img width="4096" height="3072" alt="IMG_20260519_193525_edit_57553522646011" src="https://github.com/user-attachments/assets/76784905-1670-471a-aa15-c56248de298b" />
 
-
+[Back to README](./README.md) | [Next Entry →]( )
