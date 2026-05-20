@@ -7,11 +7,13 @@ A personal project by a CS student at TU Dublin, documenting the full process of
 ---
 
 **Hardware:**
-- CPU: Intel i7-5600U (2 cores / 4 threads @ 2.6GHz)
-- RAM: 12GB DDR3
-- Disk: SK Hynix SC300 mSATA 512GB SSD
-- GPU: Intel HD Graphics 5500 (integrated)
-- Network: Built-in ethernet port & Intel Wireless 7265 (rev 59) Wifi Card
+| Component | Spec |
+|-----------|------|
+| CPU | Intel i7-5600U (2 cores / 4 threads @ 2.6GHz) |
+| RAM | 12GB DDR3 |
+| Disk | SK Hynix SC300 mSATA 512GB SSD |
+| GPU | Intel HD Graphics 5500 (integrated) |
+| Network | Built-in ethernet port & Intel Wireless 7265 (rev 59) WiFi Card |
   
 **Goals:**
 - [x] Ubuntu Server installed and SSH accessible
