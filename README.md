@@ -17,7 +17,7 @@ A personal project by a CS student at TU Dublin, documenting the full process of
   
 **Goals:**
 - [x] Ubuntu Server installed and SSH accessible
-- [ ] OpenWebUI self-hosted
+- [ ] OpenWebUI self-hosted (with Hermes Agent)
 - [ ] Basic webpage served on local network
 - [ ] Server monitoring dashboard (JavaScript)
 - [ ] NAS configured (Samba)
