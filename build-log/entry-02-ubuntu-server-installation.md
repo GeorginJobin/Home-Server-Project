@@ -124,7 +124,7 @@ network:
 ```
 
 - Save and exit
-- Had errors applying doing the command below (see incident log 2)
+- Had errors applying doing the command below (see [incident log 2](../incident-log/incident-02-ubuntu-wifi-setup.md))
 - sudo netplan apply
 - And we are in
 - Test by ping -c 3 google.com, and returns "64 bytes from..."
