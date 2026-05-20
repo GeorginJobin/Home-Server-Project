@@ -111,6 +111,7 @@ Connect to wifi;
 - Save '0x-xxx.yaml' file (different for everyone)
 - sudo nano /etc/netplan/0x-xxx.yaml
 - and then set this up
+```yaml
 network:
   version: 2
   renderer: networkd
@@ -120,6 +121,8 @@ network:
       access-points:
         "YOUR_WIFI_NAME":
           password: "YOUR_WIFI_PASSWORD"
+```
+
 - Save and exit
 - Had errors applying doing the command below (see incident log 2)
 - sudo netplan apply
