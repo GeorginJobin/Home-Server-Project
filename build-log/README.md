@@ -9,4 +9,4 @@ A full history of every build log entry for this project.
 
 ---
 
-[← Back to README](./README.md)
+[← Back to README](../README.md)
