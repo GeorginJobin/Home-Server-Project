@@ -17,11 +17,13 @@ A personal project by a CS student at TU Dublin, documenting the full process of
   
 **Goals:**
 - [x] Ubuntu Server installed and SSH accessible
+- [ ] OpenWebUI self-hosted
 - [ ] Basic webpage served on local network
+- [ ] Server monitoring dashboard (JavaScript)
 - [ ] NAS configured (Samba)
 - [ ] Jellyfin media server running
-- [ ] OpenWebUI self-hosted
-- [ ] Server monitoring dashboard (JavaScript)
+
+
 
 **Status:** In progress — started May 2026
 
