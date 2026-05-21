@@ -17,11 +17,13 @@ A personal project by a CS student at TU Dublin to develop real System Administr
   
 **Goals:**
 - [x] Ubuntu Server installed and SSH accessible
-- [ ] OpenWebUI self-hosted (with Hermes Agent)
+- [ ] OpenWebUI self-hosted (with Docling RAG)
+- [ ] Hermes Agent self-hosted (connected to OpenWebUI)
 - [ ] Basic webpage served on local network
+- [ ] Jellyfin media server running
 - [ ] Server monitoring dashboard (JavaScript)
 - [ ] NAS configured (Samba)
-- [ ] Jellyfin media server running
+
 
 
 
