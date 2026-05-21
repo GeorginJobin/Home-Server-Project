@@ -8,6 +8,7 @@ These are steps I took to make this happen!
 <br>
 
 **Step 1 - Removing old conflicting packages**
+
 Although this is a new install, it just to kind of remind me in the future when setting up/reinstalling/updating docker to do this. And it is really just good practice. And it's just a simple comamnd as well.
 
 ```bash
@@ -17,6 +18,7 @@ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker c
 <br>
 
 **Step 2 - Installing Docker**
+
 This is the main part of just installing it, first install the dependencies;
 
 
@@ -71,6 +73,7 @@ From this I also found out that Ubuntu installed a new kernal, which I haven't u
 <br>
 
 **Step 3 - Config**
+
 Now all that my Ubuntu kernal is up to date, all I have to do is do some basic config to add myself as a user to the Docker group, so I don't have to sudo in each time
 
 
@@ -83,6 +86,7 @@ newgrp docker
 <br>
 
 **Step 4 - Testing**
+
 Last but not least actually testing if it all worked
 
 
