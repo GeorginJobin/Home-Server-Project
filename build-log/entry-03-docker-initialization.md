@@ -5,6 +5,7 @@ I am going to be setting up Docker on my server today. Its going to be mainly us
 
 These are steps I took to make this happen!
 
+<br>
 
 **Step 1 - Removing old conflicting packages**
 Although this is a new install, it just to kind of remind me in the future when setting up/reinstalling/updating docker to do this. And it is really just good practice. And it's just a simple comamnd as well.
@@ -18,18 +19,18 @@ for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker c
 **Step 2 - Installing Docker**
 This is the main part of just installing it, first install the dependencies;
 
-<br>
+
 
 ```bash
 sudo apt-get update # Refreshes the package list
 sudo apt-get install ca-certificates curl # Installs the ca cert tool and curl which used for web requests from cli
 ```
 
-<br>
+
 
 Next is just everything related to the GPG keys (a cryptographic key pairs which just secure file and makes sure they not tampered with);
 
-<br>
+
 
 ```bash
 sudo install -m 0755 -d /etc/apt/keyrings # Makes a directory at the location of where trusted GPG keys are stored
@@ -38,11 +39,11 @@ sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o
 sudo chmod a+r /etc/apt/keyrings/docker.asc # Makes the key readable by all the users on the system
 ```
 
-<br>
+
 
 Next to add Docker's repo itself;
 
-<br>
+
 
 ```bash
 echo \
@@ -51,11 +52,11 @@ echo \
   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-<br>
+
 
 And finally just to actually install;
 
-<br>
+
 
 ```bash
 # Installing Docker
@@ -63,16 +64,16 @@ sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 ```
 
-<br>
+
 
 From this I also found out that Ubuntu installed a new kernal, which I haven't updated to yet, although it doesn't effect this installation process for Docker, I am just going to quickly reboot so it doesn't mess up any future steps I will be doing
 
 <br>
 
-**Step 3 - Config
+**Step 3 - Config**
 Now all that my Ubuntu kernal is up to date, all I have to do is do some basic config to add myself as a user to the Docker group, so I don't have to sudo in each time
 
-<br>
+
 
 ```bash
 sudo usermod -aG docker $USER
@@ -84,13 +85,13 @@ newgrp docker
 **Step 4 - Testing**
 Last but not least actually testing if it all worked
 
-<br>
+
 
 ```bash
 docker run hello-world # Returns 'Hello from Docker!'
 ```
 
-<br>
+
 
 It successfully returned meaning the install was successful
 
