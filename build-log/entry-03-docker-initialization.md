@@ -9,7 +9,7 @@ These are steps I took to make this happen!
 
 **Step 1 - Removing old conflicting packages**
 
-Although this is a new install, it just to kind of remind me in the future when setting up/reinstalling/updating docker to do this. And it is really just good practice. And it's just a simple comamnd as well.
+Although this is a new install, this is just to remind me in the future when setting up/reinstalling/updating docker to do this. And it is really just good practice. And it's just a simple comamnd as well!
 
 ```bash
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
@@ -36,8 +36,8 @@ Next is just everything related to the GPG keys (a cryptographic key pairs which
 
 ```bash
 sudo install -m 0755 -d /etc/apt/keyrings # Makes a directory at the location of where trusted GPG keys are stored
-sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o 
-  /etc/apt/keyrings/docker.asc # Downloads dockers official GPG key from their website, and then saves it into the keyring folder
+sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc # Downloads dockers official GPG key from their website, and then saves it into the keyring folder
+
 sudo chmod a+r /etc/apt/keyrings/docker.asc # Makes the key readable by all the users on the system
 ```
 
