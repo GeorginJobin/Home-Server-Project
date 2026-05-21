@@ -7,7 +7,7 @@ I have decided to flash Ubuntu Server 26.04 LTS onto this server, to me this is 
 
 The steps I took to install this OS.
 
-***Step 1 - Downloading ISO and Flashing USB**
+**Step 1 - Downloading ISO and Flashing USB**
 - Downloaded Ubuntu Server 26.04 LTS ISO
 - Used Rufus 4.13.2316, to flash onto my USB (settings can be seen in the image)
 - USB flashed successfully!
@@ -18,7 +18,7 @@ The steps I took to install this OS.
 
 
 
-***Step 2 - Turn off Bitlocker**
+**Step 2 - Turn off Bitlocker**
 I wanted to turn off bitlocker on this device just in case I needed to get back into the windows user for old files or troubleshooting, as I don't have access to the Bitlocker key on this device.
 
 I had gone through the Windows Recovery Environment to do this as again my keyboard and trackpad was not working, and also that Microsoft wont allow for bitlocker changes through Windows 11 unless you have Windows 11 Pro or Enterprise. 
@@ -39,7 +39,7 @@ But surprisely the bitlocker was already off for this device, either way these w
 
 
 
-***Step 3 - Booting from USB**
+**Step 3 - Booting from USB**
 I plugged my laptop into power before flashing, And I have finally removed the battery so it is currently only being powered directly with the power cable.
 
 <img width="4096" height="3072" alt="IMG_20260519_171329" src="https://github.com/user-attachments/assets/1473ac23-54dc-4bfe-8866-ff363c87509b" />
@@ -64,7 +64,7 @@ Then it brought me to GRUB, the linux boot manager, and I selected "Try or Insta
 
 
 
-***Step 4 - Configure Ubuntu Server**
+**Step 4 - Configure Ubuntu Server**
 Next was the Ubuntu Server Config.
 
 - Language: English
