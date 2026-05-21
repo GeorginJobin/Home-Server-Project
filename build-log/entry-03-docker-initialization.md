@@ -121,6 +121,6 @@ Images:
 
 <img width="982" height="772" alt="image" src="https://github.com/user-attachments/assets/68224914-a828-4225-85b0-54e0819754f0" />
 
-Next Step: Setup Openwebui and Docling
+Next Step: Self-host OpenWebUI and Setup Docling
 
 [Back to README](./README.md) | [Next Entry →]( )
