@@ -13,7 +13,7 @@ Although this is a new install, it just to kind of remind me in the future when 
 for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
 ```
 
-
+<br>
 
 **Step 2 - Installing Docker**
 This is the main part of just installing it, first install the dependencies;
