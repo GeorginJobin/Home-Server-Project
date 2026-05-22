@@ -169,6 +169,7 @@ Date: 22-May-2026
 Status: Partially Resolved 
 
 - **Problem:**
+  
 Was trying to SSH into my server from my laptop and it kept just timing out and refusing to connect, spent a little bit of time troubleshooting.
 
 - **Diagnosis:**
@@ -180,9 +181,10 @@ Was trying to SSH into my server from my laptop and it kept just timing out and 
 Yeah it ended being kind of a dumb reason for this report. I realised I just wasn't on the same network which is my fault not the server's
 
 - **Fix:**
+  
 Connected my laptop back to the same network as my server, and it worked immeadiately. Again not being a fix just me being stupid
 
-However this did highlight a real issue, I currently have no way to access/connect to my server if I am away/not on the same network.
+However this did highlight a real issue, I currently have no way to access/connect to my server if I'm away/not on the same network.
 
 - **What I Learned:**
   
