@@ -39,7 +39,7 @@ Date: 21-May-2026
 
 I am going to be setting up Docker on my server today. Its going to be mainly used to help me self-host multiple websites, like in my plan to self host openwebui to allow me, to have a service which I can use for my local LLM's on my main laptop, without taking up more RAM or resources while running said LLM's. I also want to set it up for personal portfolio, different projects and a minecraft server (if my hardware allows for it).
 
-These are steps I took to make this happen!
+These are steps I took to setup Docker on my server.
 
 <br>
 
