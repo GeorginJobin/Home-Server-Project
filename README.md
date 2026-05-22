@@ -163,30 +163,32 @@ Images:
 
 ## Latest Incident Log
 
-### Incident 2: Ubuntu Server Wifi Setup
-Date: 19-May-2026
-Status: Resolved
+### Incident 3: SSH Connection Failure
+Date: 22-May-2026
+
+Status: Partially Resolved 
 
 - Problem:
-Was setting up wifi after full Ubuntu installation, for some reason wont let me, gives me error say the permissions for my netplan file are too open. I troubleshooted by trying these commands again;
+Was trying to SSH into my server from my laptop and it kept just timing out and refusing to connect, spent a little bit of time troubleshooting.
 
-- Diagnosis
-  - sudo netplan apply [x]
-  - sudo chmod 600 /etc/netplan/0x-xxx.yaml --> sudo netplan apply [x]
-  - sudo chown root:root /etc/netplan/0x-xxx.yaml --> sudo chmod 600 /etc/netplan/0x-xxx.yaml --> sudo netplan apply [x]
-  - sudo chown -R root:root /etc/netplan/ --> sudo chmod 600 /etc/netplan/*.yaml --> sudo netplan --debug apply [✓]
-
-  One last check to see if it works
-    - ip a
-    - Check to see if there is a ip under the wifi interfernce name beside inet, which there is and we are in.
+- Diagnosis:
+  
+  - Checked if the server was and running. [✓]
+  - Checked if SSH service was still running. [✓]
+  - Checked if I was on the same network. [x]
+ 
+Yeah it ended being kind of a dumb reason for this report. I realised I just wasn't on the same network which is my fault not the server's
 
 - Fix:
-Netplan won't let you apply/save the file with your wifi password and name in it, when it is accessible to everyone, so give only adminstartor/root  permission to see for all the .yaml files and the entire folder. Not too difficult of a fix, but still annoying.
+Connected my laptop back to the same network as my server, and it worked immeadiately. Again not being a fix just me being stupid
 
-What I Learned:
-- netplan can see and detect if you have your wifi password in a file (well for wifi config files)and will not let you save/use your wifi until permissions are set to only adminstrator/root can see them.
-- Good to know in the future when changing wifi networks or setting this up again on a different device
+However this did highlight a real issue, I currently have no way to access/connect to my server if I am away/not on the same network.
 
+- What I Learned:
+  
+  - Always the check the obvious stuff first before assuming something broke
+  - I need a way to access my server remotely, not just on my local network
+  - After further research will be setting up Tailscale, proably after Jellyfin, as they go hand in hand (see Readme goals)
 
 
 
