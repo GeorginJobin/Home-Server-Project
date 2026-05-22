@@ -7,6 +7,7 @@ Status: Partially Resolved
 Was trying to SSH into my server from my laptop and it kept just timing out and refusing to connect, spent a little bit of time troubleshooting.
 
 - Diagnosis:
+  
   - Checked if the server was and running. [✓]
   - Checked if SSH service was still running. [✓]
   - Checked if I was on the same network. [x]
@@ -19,6 +20,7 @@ Connected my laptop back to the same network as my server, and it worked immeadi
 However this did highlight a real issue, I currently have no way to access/connect to my server if I am away/not on the same network.
 
 - What I Learned:
+  
   - Always the check the obvious stuff first before assuming something broke
   - I need a way to access my server remotely, not just on my local network
   - After further research will be setting up Tailscale, proably after Jellyfin, as they go hand in hand (see Readme goals)
