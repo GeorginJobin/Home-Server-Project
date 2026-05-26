@@ -1,4 +1,4 @@
-### Entry 4: OpenWebUI + Docling RAG Setup
+[docling_rag_table_test.pdf](https://github.com/user-attachments/files/28276732/docling_rag_table_test.pdf)### Entry 4: OpenWebUI + Docling RAG Setup
 Date: 26-May-2026
 
 The next thing I will be adding to my server is OpenWebUI, its a service I have been using for a while with local models from Ollama/LM Studio. The reason I am going to be doing this on my server, is to move the docker/hosting side of this platform to my server to free up more resources on my main pc to actually be able to run better models, or the ones I have been using just at high context lengths. Also this will allow me to access this site 24/7, and anywhere (after I setup Tailscale). What I will be doing is hybird setup, with OpenWebUI of course running on my server, while I have my models running on my main pc. I'll also be adding the Docling RAG tool, to give me extra functionality with my base models, for parsing and other tasks I will be doing.
@@ -122,7 +122,23 @@ ollama pull nomic-embed-text
 
 Now at this point I did realise that I forgot to LM Studio server which I ended up doing, by just flipping the switch beside Status.
 
-All I did now was test that everything worked. 
+All I did now was test that everything worked.
+
+And it did LM Studio and Ollama worked like a charm.
+
+The final bit of testing is to test Docling;
+
+- Upload a document to Workspace > Knowledge > Ask a question using #
+- I used this document
+- And this prompt; Convert the table under the section titled "Structured Product Table" into a markdown table exactly as it appears in the document.
+- And it worked, once I copy the table generated into notepad, it is in a markdown format, the table is below;
+
+| Product | Category | Price | Stock |
+|---|---|---|---|
+| Keyboard | Electronics | $49 | 120 |
+| Notebook | Stationery | $5 | 340 |
+| Coffee Mug | Kitchen | $12 | 85 |
+| USB Cable | Accessories | $8 | 210 |
 
 
 Images:
@@ -141,11 +157,19 @@ Images:
 
 <img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/e343513b-2026-4f16-95ee-6515290e8af0" />
 
-<img width="1910" height="428" alt="image" src="https://github.com/user-attachments/assets/a89e0e31-f9d3-42a1-896b-01bcd079c3cc" />
-
 <img width="1801" height="309" alt="image" src="https://github.com/user-attachments/assets/96845363-de52-4b75-aebf-2ae37f58f00b" />
 
 <img width="1915" height="1025" alt="image" src="https://github.com/user-attachments/assets/1877f3e5-f7f3-4889-b270-1fe6c3a51bba" />
+
+<img width="1919" height="931" alt="image" src="https://github.com/user-attachments/assets/7ae81147-4112-49df-a3ad-ecf3d6816ab7" />
+
+<img width="1576" height="341" alt="image" src="https://github.com/user-attachments/assets/2376638f-f546-4a90-a24e-76a245b8cf9e" />
+
+<img width="1910" height="927" alt="image" src="https://github.com/user-attachments/assets/3d1f0831-144e-4eeb-93ca-06680079c8cc" />
+
+<img width="481" height="275" alt="image" src="https://github.com/user-attachments/assets/8690e0b9-c0c0-4d7d-b60a-9f5b7bfee361" />
+
+
 
 
 
