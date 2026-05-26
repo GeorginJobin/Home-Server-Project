@@ -77,9 +77,9 @@ Images:
 
 <img width="1919" height="1076" alt="Screenshot 2026-05-26 154826" src="https://github.com/user-attachments/assets/dc84440d-8e06-4fd9-af7d-196d6c1d44f1" />
 
- <img width="1906" height="104" alt="Screenshot 2026-05-26 155615" src="https://github.com/user-attachments/assets/9b954fc0-076b-42c2-9259-a34b513acfc0" />
+<img width="1906" height="104" alt="Screenshot 2026-05-26 155615" src="https://github.com/user-attachments/assets/9b954fc0-076b-42c2-9259-a34b513acfc0" />
 
-
+[Back to README](./README.md) | [Next Entry →]()
 
 
 
