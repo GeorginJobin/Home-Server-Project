@@ -69,7 +69,61 @@ docker ps
 ```
 
 
-**Step 2 - Starting thhe containers**
+**Step 2 - Exposing Ollama & LM Studio on my main PC**
+
+Ollama need to be exposed to the local netowkr so my server can reach, by default it only detects localhost.
+
+- In enviroment variables create a new variable and name it 'OLLAMA_HOST'
+- And set the value to 0.0.0.0
+
+For LM Studio it's even easier;
+
+- Open LM Studio
+- Go to the Developer tab
+- Load the model than I want to seve
+- Turn on Serve on Local Network
+- Turn on Enable CORS
+- Click Start Server
+- And note the port, default is 1234
+
+**Step 3 - Connect everything in OpenWebUI**
+
+Next step for me is to connect everything on OpenWebUI.
+
+- Go to http://SERVER_IP:3000
+- Make an account and login into openwebui (completely local)
+- Go to Admin Panel > Settings > Add Connections
+- Add URL: http://PC_IP:11434/
+- Click verify to ensure its running and save
+
+- For LM Studio, OpenAI > Add Connection
+- Add URL: http://PC_IP.3:1234/v1
+- API Key: lm-studio
+- Save
+
+**Step 4 - Configure Docling**
+
+Next to finish all of the setup is just to configure Docling within OpenWebUI
+
+- Go to Admin Panel > Settings > Documents
+- Context extraction engine > Docling
+- Docling URL: http://docling-server:5001
+- Embedding model engine > Ollama
+- Embedding model > nomic-embed-text
+- Save
+
+Then on cmd on my main pc I pulled the embedding model;
+
+```bash
+ollama pull nomic-embed-text
+```
+
+**Step 5 - Test Everything**
+
+Now at this point I did realise that I forgot to LM Studio server which I ended up doing, by just flipping the switch beside Status.
+
+All I did now was test that everything worked. 
+
 
 Images:
 
@@ -77,7 +131,26 @@ Images:
 
 <img width="1919" height="1076" alt="Screenshot 2026-05-26 154826" src="https://github.com/user-attachments/assets/dc84440d-8e06-4fd9-af7d-196d6c1d44f1" />
 
-<img width="1906" height="104" alt="Screenshot 2026-05-26 155615" src="https://github.com/user-attachments/assets/9b954fc0-076b-42c2-9259-a34b513acfc0" />
+<img width="1911" height="452" alt="image" src="https://github.com/user-attachments/assets/9d6f6a1e-ddda-49fa-b416-7fb7e184a740" />
+
+<img width="1041" height="991" alt="image" src="https://github.com/user-attachments/assets/76380c8f-6adb-4365-960e-9442b2d8002a" />
+
+<img width="1919" height="853" alt="image" src="https://github.com/user-attachments/assets/3d58d0ed-f423-4ee1-9d27-ca2208f453b9" />
+
+<img width="1919" height="1076" alt="image" src="https://github.com/user-attachments/assets/51d0b6ef-5aec-446a-9fde-6003c27b3ad6" />
+
+<img width="1919" height="1020" alt="image" src="https://github.com/user-attachments/assets/e343513b-2026-4f16-95ee-6515290e8af0" />
+
+<img width="1910" height="428" alt="image" src="https://github.com/user-attachments/assets/a89e0e31-f9d3-42a1-896b-01bcd079c3cc" />
+
+<img width="1801" height="309" alt="image" src="https://github.com/user-attachments/assets/96845363-de52-4b75-aebf-2ae37f58f00b" />
+
+<img width="1915" height="1025" alt="image" src="https://github.com/user-attachments/assets/1877f3e5-f7f3-4889-b270-1fe6c3a51bba" />
+
+
+
+
+
 
 [Back to README](./README.md) | [Next Entry →]()
 
