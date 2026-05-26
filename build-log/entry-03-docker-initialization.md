@@ -123,4 +123,4 @@ Images:
 
 Next Step: Self-host OpenWebUI and Setup Docling RAG
 
-[Back to README](./README.md) | [Next Entry →]( )
+[Back to README](./README.md) | [Next Entry →](./entry-04-openwebui-docling-setup.md)
