@@ -1,4 +1,4 @@
-[docling_rag_table_test.pdf](https://github.com/user-attachments/files/28276732/docling_rag_table_test.pdf)### Entry 4: OpenWebUI + Docling RAG Setup
+### Entry 4: OpenWebUI + Docling RAG Setup
 Date: 26-May-2026
 
 The next thing I will be adding to my server is OpenWebUI, its a service I have been using for a while with local models from Ollama/LM Studio. The reason I am going to be doing this on my server, is to move the docker/hosting side of this platform to my server to free up more resources on my main pc to actually be able to run better models, or the ones I have been using just at high context lengths. Also this will allow me to access this site 24/7, and anywhere (after I setup Tailscale). What I will be doing is hybird setup, with OpenWebUI of course running on my server, while I have my models running on my main pc. I'll also be adding the Docling RAG tool, to give me extra functionality with my base models, for parsing and other tasks I will be doing.
@@ -129,8 +129,8 @@ And it did LM Studio and Ollama worked like a charm.
 The final bit of testing is to test Docling;
 
 - Upload a document to Workspace > Knowledge > Ask a question using #
-- I used this document
-- And this prompt; Convert the table under the section titled "Structured Product Table" into a markdown table exactly as it appears in the document.
+- I used this document: [docling_rag_table_test.pdf](https://github.com/user-attachments/files/28276732/docling_rag_table_test.pdf)
+- And this prompt: "Convert the table under the section titled "Structured Product Table" into a markdown table exactly as it appears in the document."
 - And it worked, once I copy the table generated into notepad, it is in a markdown format, the table is below;
 
 | Product | Category | Price | Stock |
