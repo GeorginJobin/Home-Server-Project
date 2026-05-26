@@ -140,6 +140,8 @@ The final bit of testing is to test Docling;
 | Coffee Mug | Kitchen | $12 | 85 |
 | USB Cable | Accessories | $8 | 210 |
 
+And wallah, everything works, from my OpenWebUI and Docling being hosted on my server, to them connecting to my Ollama and LM Studio from my main pc. And everything working together!
+
 
 Images:
 
