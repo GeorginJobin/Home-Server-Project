@@ -60,3 +60,26 @@ networks:  # Creates a private internal network, that both containers share. Thi
 volumes:  # Creates a volume for OpenWebUI allowing data to be persistant through restars
   open-webui:
 ```
+
+Now to just start the containers
+
+```bash
+docker compose up -d
+docker ps
+```
+
+
+**Step 2 - Starting thhe containers**
+
+Images:
+
+<img width="694" height="71" alt="Screenshot 2026-05-26 154812" src="https://github.com/user-attachments/assets/8473aabe-ba8d-4d23-ad17-fb0b41957735" />
+
+<img width="1919" height="1076" alt="Screenshot 2026-05-26 154826" src="https://github.com/user-attachments/assets/dc84440d-8e06-4fd9-af7d-196d6c1d44f1" />
+
+ <img width="1906" height="104" alt="Screenshot 2026-05-26 155615" src="https://github.com/user-attachments/assets/9b954fc0-076b-42c2-9259-a34b513acfc0" />
+
+
+
+
+
