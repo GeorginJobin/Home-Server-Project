@@ -3,6 +3,8 @@ Date: 26-May-2026
 
 The next thing I will be adding to my server is OpenWebUI, its a service I have been using for a while with local models from Ollama/LM Studio. The reason I am going to be doing this on my server, is to move the docker/hosting side of this platform to my server to free up more resources on my main pc to actually be able to run better models, or the ones I have been using just at high context lengths. Also this will allow me to access this site 24/7, and anywhere (after I setup Tailscale). What I will be doing is hybird setup, with OpenWebUI of course running on my server, while I have my models running on my main pc. I'll also be adding the Docling RAG tool, to give me extra functionality with my base models, for parsing and other tasks I will be doing.
 
+<br>
+
 **Step 1 - Creating the Docker Compose file**
 
 Rather than running all the containers indivually, I used Docker Compose so both OpenWebUI and Docling can run together and talk to each at the same time on the same Docker network. These are the steps I took to make this;
@@ -68,6 +70,7 @@ docker compose up -d
 docker ps
 ```
 
+<br>
 
 **Step 2 - Exposing Ollama & LM Studio on my main PC**
 
@@ -86,6 +89,8 @@ For LM Studio it's even easier;
 - Click Start Server
 - And note the port, default is 1234
 
+<br>
+
 **Step 3 - Connect everything in OpenWebUI**
 
 Next step for me is to connect everything on OpenWebUI.
@@ -100,6 +105,8 @@ Next step for me is to connect everything on OpenWebUI.
 - Add URL: http://PC_IP.3:1234/v1
 - API Key: lm-studio
 - Save
+
+<br>
 
 **Step 4 - Configure Docling**
 
@@ -117,6 +124,8 @@ Then on cmd on my main pc I pulled the embedding model;
 ```bash
 ollama pull nomic-embed-text
 ```
+
+<br>
 
 **Step 5 - Test Everything**
 
@@ -142,6 +151,7 @@ The final bit of testing is to test Docling;
 
 And wallah, everything works, from my OpenWebUI and Docling being hosted on my server, to them connecting to my Ollama and LM Studio from my main pc. And everything working together!
 
+<br>
 
 Images:
 
