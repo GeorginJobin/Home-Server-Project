@@ -150,6 +150,7 @@ The final bit of testing is to test Docling;
 | USB Cable | Accessories | $8 | 210 |
 
 And wallah, everything works, from my OpenWebUI and Docling being hosted on my server, to them connecting to my Ollama and LM Studio from my main pc. And everything working together!
+And officially I have completed one of my goals that I wanted to complete when starting this project.
 
 <br>
 
