@@ -25,8 +25,9 @@ Afterwards, I did command below on my server;
 sudo tailscale up # Connects the server to the Tailscale network
 ```
 
-This gave me a URL which I used to login/connect my server to my tailscale account.
-And then I got the IP address of my server on the Tailscale network;
+This gave me a URL which I used to login/connect my server to my tailscale account. Which now officially connects my server and my laptop together.
+
+And then I got the IP address of my server on the Tailscale network, I will be using this to SSH into later;
 
 ```bash
 tailscale ip -4
@@ -48,11 +49,26 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 
 I SSH into my server using my new Tailscale IP for my server, on my mobile data, and it connected successfully!
 
-
 <br>
 
 Images:
+
 <img width="1713" height="712" alt="image" src="https://github.com/user-attachments/assets/67b49e69-66f8-468e-8070-cf55aa487ac3" />
+
+<img width="1919" height="1026" alt="Screenshot 2026-05-29 185024" src="https://github.com/user-attachments/assets/26073f95-0f75-491a-ad45-bf1a8eae2d88" />
+
+<img width="1198" height="1107" alt="Screenshot 2026-05-29 185656" src="https://github.com/user-attachments/assets/b73602b6-90c8-4241-8d15-a1c4741e94d2" />
+
+<img width="749" height="140" alt="Screenshot 2026-05-29 184617" src="https://github.com/user-attachments/assets/9e0611ae-48a2-4988-8d7f-2ace471191dc" />
+
+<img width="1818" height="914" alt="Screenshot 2026-05-29 185319" src="https://github.com/user-attachments/assets/d11913f8-52ea-4d5c-bce0-96977fdcc068" />
+
+<img width="1474" height="141" alt="Screenshot 2026-05-29 190650" src="https://github.com/user-attachments/assets/d88e22dc-b173-45a4-8e53-a1fa6f56b28a" />
+
+<img width="1115" height="1061" alt="Screenshot 2026-05-29 190753" src="https://github.com/user-attachments/assets/2bdfc7b1-9f34-4a2e-b205-4d7427b3bab3" />
+
+
+
 
 
 
