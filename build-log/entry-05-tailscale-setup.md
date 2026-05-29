@@ -49,6 +49,10 @@ sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.ta
 
 I SSH into my server using my new Tailscale IP for my server, on my mobile data, and it connected successfully!
 
+With this my rushed setup of Tailscale is done!
+
+This is going to allow me to use my server on the go which great.
+
 <br>
 
 Images:
