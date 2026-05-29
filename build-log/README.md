@@ -8,7 +8,7 @@ A full history of every build log entry for this project.
 | 2 | [Ubuntu Server Installation](./entry-02-ubuntu-server-installation.md) | 19-May-2026 |
 | 3 | [Docker Initialization](./entry-03-docker-initialization.md) | 21-May-2026 |
 | 4 | [OpenWebUI + Docling Setup](./entry-04-openwebui-docling-setup.md) | 26-May-2026 |
-
+| 5 | [Tailscale Setup](./entry-04-openwebui-docling-setup.md) | 29-May-2026 |
 
 ---
 
