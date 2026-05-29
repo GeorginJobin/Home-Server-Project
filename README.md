@@ -21,7 +21,7 @@ A personal project by a CS student at TU Dublin to develop real System Administr
 - [ ] Hermes Agent self-hosted (connected to OpenWebUI)
 - [ ] Basic webpage served on local network
 - [ ] Jellyfin media server running
-- [ ] Tailscale Mesh Network/VPN
+- [x] Tailscale Mesh Network/VPN (Basic Setup for on the go access to my server)
 - [ ] Server monitoring dashboard
 - [ ] NAS configured
 
