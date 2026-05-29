@@ -182,14 +182,9 @@ Images:
 
 <img width="481" height="275" alt="image" src="https://github.com/user-attachments/assets/8690e0b9-c0c0-4d7d-b60a-9f5b7bfee361" />
 
+---
 
-
-
-
-
-
-
-[Back to README](./README.md) | [Next Entry →]()
+[Back to README](./README.md) | [Next Entry →](entry-05-tailscale-setup.md)
 
 
 
