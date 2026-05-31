@@ -22,6 +22,6 @@ What I Learned:
 - netplan can see and detect if you have your wifi password in a file (well for wifi config files)and will not let you save/use your wifi until permissions are set to only adminstrator/root can see them.
 - Good to know in the future when changing wifi networks or setting this up again on a different device
 
-[Back to README](./README.md) | [Next Incident →]( )
+---
 
 [← Prev Incident](./incident-01-windows-input-failure.md) | [Next Incident →](./incident-03-ssh-connection-failure.md)
