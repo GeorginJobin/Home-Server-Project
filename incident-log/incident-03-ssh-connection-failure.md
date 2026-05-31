@@ -26,3 +26,7 @@ However this did highlight a real issue, I currently have no way to access/conne
   - Always the check the obvious stuff first before assuming something broke
   - I need a way to access my server remotely, not just on my local network
   - After further research will be setting up Tailscale, proably after Jellyfin, as they go hand in hand (see new Readme goals)
+
+---
+
+[← Incident 3](./incident-03-ssh-connection-failure.md) | [Next Incident →]( )
