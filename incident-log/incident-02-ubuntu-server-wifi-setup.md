@@ -23,3 +23,5 @@ What I Learned:
 - Good to know in the future when changing wifi networks or setting this up again on a different device
 
 [Back to README](./README.md) | [Next Incident →]( )
+
+[← Prev Incident](./incident-01-windows-input-failure.md) | [Next Incident →](./incident-03-ssh-connection-failure.md)
