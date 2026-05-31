@@ -35,4 +35,4 @@ For now its fine, WiFi and Tailscale are both working so its not blocking anythi
   - dmesg is really useful for seeing real time hardware events like NIC link changes
 
 ---
-[← Incident 3](./incident-03-ssh-connection-failure.md) | [Next Incident →]( )
+[← Prev Incident](./incident-03-ssh-connection-failure.md) | [Next Incident →]( )
