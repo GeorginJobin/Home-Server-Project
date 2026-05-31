@@ -29,4 +29,4 @@ However this did highlight a real issue, I currently have no way to access/conne
 
 ---
 
-[← Incident 3](./incident-03-ssh-connection-failure.md) | [Next Incident →]( )
+[← Incident 2](./incident-02-ubuntu-server-wifi-setup.md) | [Next Incident →](./incident-04-ethernet-connection-failure.md)
