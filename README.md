@@ -111,34 +111,41 @@ Images:
 
 ## Latest Incident Log
 
-### Incident 3: SSH Connection Failure
-Date: 22-May-2026
-
-Status: Partially Resolved 
+### Incident 4: Ethernet Connection Failure
+Date: DD-Mon-2026
+Status: Unresolved
 
 - **Problem:**
-  
-Was trying to SSH into my server from my laptop and it kept just timing out and refusing to connect, spent a little bit of time troubleshooting.
+
+Attempted to connect the server to ethernet for a more stable connection, cable was plugged in but eno1 was just showing NO-CARRIER and state DOWN, it wasn't detecting the cable at all. Spent a good bit of time going through this one.
 
 - **Diagnosis:**
-  
-  - Checked if the server was and running. [✓]
-  - Checked if SSH service was still running. [✓]
-  - Checked if I was on the same network. [x]
- 
-Yeah it ended being kind of a dumb reason for this report. I realised I just wasn't on the same network which is my fault not the server's.
+
+  - Checked ip a - eno1 showing NO-CARRIER and state DOWN [x]
+  - Ran sudo ip link set eno1 up - came up but still NO-CARRIER [x]
+  - Ran sudo ethtool eno1 - showed Link detected: no [x]
+  - Checked dmesg logs - showed the NIC actually flapping, coming up at 100 Mbps then dropping again every 20 seconds [x]
+  - Found netplan config split across two files (00-installer-config.yaml and 01-netcfg.yaml), merged them into one [✓]
+  - Applied netplan again after merge - still NO-CARRIER [x]
+
+So the hardware and driver are actually fine since the NIC is briefly detecting the cable, its a physical connection issue not a software one.
 
 - **Fix:**
-  
-Connected my laptop back to the same network as my server, and it worked immeadiately. Again not being a fix just me being stupid.
 
-However this did highlight a real issue, I currently have no way to access/connect to my server if I'm away/not on the same network.
+No fix yet. Netplan is now cleaned up and all in one file which is good, but the ethernet is still not staying connected. Most likely causes are a faulty cable, a bad port on the router, or the laptop's ethernet port itself being damaged, which honestly wouldn't be surprising given I had ethernet issues all the way back in Entry 2.
+
+Things to try when I get the chance;
+  - Try a different cable
+  - Try a different port on the router
+  - If both fail, a USB to ethernet adapter (~€10) would bypass the built in port entirely
+
+For now its fine, WiFi and Tailscale are both working so its not blocking anything.
 
 - **What I Learned:**
-  
-  - Always the check the obvious stuff first before assuming something broke
-  - I need a way to access my server remotely, not just on my local network
-  - After further research will be setting up Tailscale, proably after Jellyfin, as they go hand in hand (see new Readme goals)
+
+  - When a NIC flaps like that its almost always a physical issue not software
+  - Multiple netplan files get applied in filename order, later files override earlier ones, always keep it in one file to avoid conflicts
+  - dmesg is really useful for seeing real time hardware events like NIC link changes
 
 
 
