@@ -25,7 +25,7 @@ No fix yet. Netplan is now cleaned up and all in one file which is good, but the
 Things to try when I get the chance;
   - Try a different cable
   - Try a different port on the router
-  - If both fail, a USB to ethernet adapter (~€10) would bypass the built in port entirely
+  - If both fail, a USB to ethernet adapter (€10) would bypass the built in port entirely
 
 For now its fine, WiFi and Tailscale are both working so its not blocking anything.
 
