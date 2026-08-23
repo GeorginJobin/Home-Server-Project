@@ -55,4 +55,4 @@ exit
 
 
 ---
-[Back to README](./README.md) | [Next Incident →](./incident-02-ubuntu-wifi-setup.md)
+[Back to README](./README.md) | [Next Incident →](./incident-02-ubuntu-server-wifi-setup.md)
